@@ -1,4 +1,4 @@
-import "./styles.css"
+import "./index.css"
 import {useEffect, useState} from "react";
 import {NewTodoForm} from "./NewTodoForm.jsx";
 import {TodoList} from "./TodoList.jsx";
@@ -42,13 +42,14 @@ export default function App() {
 
     return (
         <>
-            <h1>Notes </h1>
-            <NewTodoForm onSubmit={addTodo}/>
-
-            <h2>Todo List</h2>
-
-            <TodoList todos={todos} deleteTodo={deleteTodo} toggleTodo={toggleTodo}/>
-
+            <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+                <div className="w-full max-w-sm p-6 bg-white rounded-lg shadow-md">
+                    <h1 className="text-xl font-bold mb-4">Notes</h1>
+                    <NewTodoForm onSubmit={addTodo}/>
+                    <h2 className="text-lg font-bold mt-4 mb-2">Todo List</h2>
+                    <TodoList todos={todos} deleteTodo={deleteTodo} toggleTodo={toggleTodo}/>
+                </div>
+            </div>
 
 
         </>
