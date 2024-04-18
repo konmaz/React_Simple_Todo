@@ -1,8 +1,21 @@
-# React + Vite
+# Basic TODO List Created with React and Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,npm,tailwindcss&perline=3" />
+  </a>
+</p>
 
-Currently, two official plugins are available:
+This project features a straightforward TODO list built with React and styled using Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Check the web app here: https://konmaz.github.io/React_Simple_Todo
+
+Additionally, it includes a streamlined Continuous Integration/Continuous Deployment (CI/CD) pipeline that automatically publishes the website to GitHub Pages. For more details on this process, please refer to [this link](https://vitejs.dev/guide/static-deploy#github-pages).
+
+Features
+
+
+- [X] **Edit and Delete Functionality**: Allow users to edit or delete existing TODO items to modify their tasks as needed.
+- [ ] Add dark theme
+- [ ] Add PWA support 
+
